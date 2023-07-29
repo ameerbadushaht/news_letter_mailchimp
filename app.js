@@ -31,10 +31,10 @@ app.post("/", (req, res) => {
   };
 
   const jsonData = JSON.stringify(data);
-  const url = "https://us21.api.mailchimp.com/3.0/lists/c175f3e6ba "; //url : https://us21.api.mailchimp.com/3.0/lists/ + Audience ID :c175f3e6ba
+  const url = "https://us21.api.mailchimp.com/3.0/lists/Audience_ID "; //url : https://us21.api.mailchimp.com/3.0/lists/ + Audience ID :c175f3****
   const options = {
     method: "POST",
-    auth: "username:04b8249af12b65fc6bf4616c9251f4fd-us21",  // username:API Key
+    auth: "username:API_Key",  // username:API Key(04b8249af12b65fc6bf**************-us**
   };
 
   const request = https.request(url, options, (response) => {
